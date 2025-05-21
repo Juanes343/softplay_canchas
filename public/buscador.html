@@ -66,38 +66,38 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
         // Datos de ejemplo
-        const fields = [
-            {
-                id: 'elgolazo',
-                name: 'Cancha El Golazo',
-                address: 'Av. Principal 123, San Isidro',
-                size: '7x7',
-                rating: 5,
-                distance: 1.2,
-                lat: -12.045,
-                lng: -77.03
-            },
-            {
-                id: 'campeones',
-                name: 'Complejo Deportivo Campeones',
-                address: 'Los Deportistas 456, Miraflores',
-                size: '11x11',
-                rating: 4,
-                distance: 1.8,
-                lat: -12.05,
-                lng: -77.04
-            },
-            {
-                id: 'sanmartin',
-                name: 'Futbito San Martín',
-                address: 'Los Pinos 789, Surco',
-                size: '5x5',
-                rating: 5,
-                distance: 2.5,
-                lat: -12.06,
-                lng: -77.05
-            }
-        ];
+const fields = [
+    {
+        id: 'elgolazo',
+        name: 'Cancha El Golazo',
+        address: 'Carrera 1 #23-45, San Nicolás, Cali',
+        size: '7x7',
+        rating: 5,
+        distance: 1.2,
+        lat: 3.4521,
+        lng: -76.5318
+    },
+    {
+        id: 'campeones',
+        name: 'Complejo Deportivo Campeones',
+        address: 'Calle 5 #67-89, El Lido, Cali',
+        size: '11x11',
+        rating: 4,
+        distance: 1.8,
+        lat: 3.4372,
+        lng: -76.5371
+    },
+    {
+        id: 'sanmartin',
+        name: 'Futbito San Martín',
+        address: 'Av. Roosevelt #30-20, Tequendama, Cali',
+        size: '5x5',
+        rating: 5,
+        distance: 2.5,
+        lat: 3.4316,
+        lng: -76.5294
+    }
+];
 
         // Inicializar mapa
         let map = L.map('map').setView([3.4516, -76.5320], 13);
